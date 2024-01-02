@@ -2,7 +2,7 @@ import { Model } from 'mongoose';
 import { User } from '../models/user.schema';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { UpdateUserAddRoleDTO } from '../dto/user.dto';
+import { UpdateUserAddRoleDTO } from '../dto/update-user-add-role.dto';
 
 @Injectable()
 export class UpdateAddRoleUserUseCase {
